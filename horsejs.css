@@ -12,32 +12,26 @@ a {
 	position: relative;
 	left: 90px;
 	float: left;
-	margin-bottom: 20px;
 }
 
 #portrait {
 	position: fixed;
 	float: left;
-	margin-top: 8px;
+	margin-top: 10px;
 }
 
 #daysbefore {
-	margin-top: 8px;
+	margin-top: 10px;
 	color: #d8d8d8;
 	float: right;
 }
 
 #container {
+	height: 100px;
+	border-top: thin solid #f2f2f2;
+	border-bottom: thin solid #f2f2f2;
 	background-color: white;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-hr {
-	clear: both;
-	background-color: #f2f2f2;
-	height: 2px;
-	border: 0;
-	margin: 0;
 }
